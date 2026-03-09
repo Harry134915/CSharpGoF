@@ -1,4 +1,6 @@
-﻿namespace SimpleFactory;
+﻿using SimpleFactory.Weapons;
+
+namespace SimpleFactory;
 
 public class Character
 {

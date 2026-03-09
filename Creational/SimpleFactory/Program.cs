@@ -1,5 +1,16 @@
-﻿namespace SimpleFactory;
+﻿using SimpleFactory.Weapons;
 
+namespace SimpleFactory;
+
+/// <summary>
+/// 简单工厂模式（Simple Factory Pattern）
+/// 其实不是 GoF（《设计模式》）里正式的 23 种设计模式之一，
+/// 但它是最常见、最容易理解的一种“工厂思想”。
+/// 很多后续的模式（如工厂方法、抽象工厂）都是从它演化出来的。
+/// 
+/// 核心思想:
+/// 把创建对象的逻辑集中到一个类里，而不是到处 new
+/// </summary>
 internal class Program
 {
     /// <summary>

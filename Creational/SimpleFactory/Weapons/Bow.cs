@@ -1,4 +1,4 @@
-﻿namespace SimpleFactory;
+﻿namespace SimpleFactory.Weapons;
 
 public class Bow : IWeapon
 {

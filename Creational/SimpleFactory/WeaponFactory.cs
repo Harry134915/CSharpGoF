@@ -1,5 +1,7 @@
 ﻿// WeaponFactory：简单工厂模式，负责创建各种武器实例，屏蔽具体实现细节
 
+using SimpleFactory.Weapons;
+
 namespace SimpleFactory;
 
 public static class WeaponFactory
