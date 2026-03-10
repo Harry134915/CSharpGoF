@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethod;
 
-public abstract class GameLevel
+public abstract class LevelEnemiesCreator
 {
     public List<IUnit>? Enemies { get; set; }
 

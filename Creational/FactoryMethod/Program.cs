@@ -72,12 +72,12 @@ internal class Program
 
         Console.WriteLine("玩家游玩肉鸽游戏");
 
-        var level1 = new Level1();
+        var level1 = new LevelEnemiesCreator1();
         level1.StartLevel();
 
         Console.WriteLine("玩家轻松带走小脆皮们");
 
-        var level2 = new Level2();
+        var level2 = new LevelEnemiesLevel2();
         level2.StartLevel();
 
         Console.WriteLine("玩家被按在地上摩擦");
