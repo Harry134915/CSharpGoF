@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-
-namespace Facade;
+﻿namespace Facade;
 
 internal class Program
 {

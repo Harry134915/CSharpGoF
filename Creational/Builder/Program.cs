@@ -33,10 +33,30 @@ internal class Program
     private static void UnusedDesignPattern()
     {
         Console.WriteLine("\n未使用设计模式的代码:");
+
+        Console.WriteLine("创建一个复杂对象: 哥布林");
+        //当参数变多：20~30个属性, 代码会变得：难读,难维护,容易出错
+        var character = new Character();
+        character.Name = "哥布林";
+        character.Health = 100;
+        character.Defense = 10;
+        character.Damage = 15;
+        character.AttackSpeed = 1.5f;
+        character.MoveSpeed = 12f;
     }
 
     private static void UsedDesignPattern()
     {
         Console.WriteLine("\n使用建造者模式的代码:");
+
+        var characterBuilder = new CharacterBuilder();
+        characterBuilder.SetName("哥布林")
+                        .SetHealth(100)
+                        .SetDefense(10)
+                        .SetDamage(15)
+                        .SetAttackSpeed(1.5f)
+                        .SetMoveSpeed(12f).Build();
+
+        var character = characterBuilder.Build();
     }
 }
