@@ -1,23 +1,23 @@
 ﻿namespace Observer;
 
+/// <summary>
+/// 观察者模式（Observer Pattern）
+/// 是一种 行为型设计模式。
+/// 
+/// 核心思想:
+/// 当一个对象状态改变时，自动通知所有依赖它的对象。
+///
+/// 也就是一对多通知
+///
+/// 关键点不是“事件”，而是"解耦"
+///
+/// 结构:
+/// Subject（被观察者）
+///     ↓
+/// Observer（观察者）
+/// </summary>
 internal class Program
 {
-    /// <summary>
-    /// 观察者模式（Observer Pattern）
-    /// 是一种 行为型设计模式。
-    /// 
-    /// 核心思想:
-    /// 当一个对象状态改变时，自动通知所有依赖它的对象。
-    ///
-    /// 也就是一对多通知
-    ///
-    /// 关键点不是“事件”，而是"解耦"
-    ///
-    /// 结构:
-    /// Subject（被观察者）
-    ///     ↓
-    /// Observer（观察者）
-    /// </summary>
     private static void Main(string[] args)
     {
         //未使用设计模式
