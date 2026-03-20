@@ -1,9 +1,14 @@
 ﻿namespace Adapter;
 
-// 角色类，负责攻击操作
+/// <summary>
+/// 角色类，负责攻击操作。
+/// </summary>
 public class Character
 {
-    // 攻击方法，接收不同类型的武器对象
+    /// <summary>
+    /// 攻击方法，接收不同类型的武器对象。
+    /// </summary>
+    /// <param name="weapon">武器对象</param>
     public void Attack(object weapon)
     {
         // ❌ 每增加一个新武器，就要改 Character

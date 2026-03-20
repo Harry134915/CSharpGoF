@@ -1,9 +1,13 @@
 ﻿namespace Adapter;
 
-// 被适配者：手枪
+/// <summary>
+/// 被适配者：手枪。
+/// </summary>
 public class Pistol
 {
-    // 手枪的攻击方法
+    /// <summary>
+    /// 手枪的攻击方法。
+    /// </summary>
     public void Fire()
     {
         Console.WriteLine("手枪开火");
