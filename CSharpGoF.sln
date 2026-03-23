@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Structural\Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Behavioral\Iterator\Iterator.csproj", "{390BA6C2-A861-46F3-A124-36C85529470E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Singleton\Singleton.csproj", "{9A678DE1-9759-410D-856F-8DE3D79B2ACD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{390BA6C2-A861-46F3-A124-36C85529470E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{390BA6C2-A861-46F3-A124-36C85529470E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{390BA6C2-A861-46F3-A124-36C85529470E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A678DE1-9759-410D-856F-8DE3D79B2ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A678DE1-9759-410D-856F-8DE3D79B2ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A678DE1-9759-410D-856F-8DE3D79B2ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A678DE1-9759-410D-856F-8DE3D79B2ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -135,5 +141,6 @@ Global
 		{473ECF97-AFB5-4D85-A0A3-C07F5E841773} = {545ACB77-028B-4A0E-BEED-19A37ED42690}
 		{4CFBFB85-424E-4923-8C54-9B4B1FC46DBB} = {F678D60F-D048-4971-BF38-33D82CD07EF2}
 		{390BA6C2-A861-46F3-A124-36C85529470E} = {545ACB77-028B-4A0E-BEED-19A37ED42690}
+		{9A678DE1-9759-410D-856F-8DE3D79B2ACD} = {D07839D2-76CA-4C7A-A440-EBB9FE1B8EAA}
 	EndGlobalSection
 EndGlobal
